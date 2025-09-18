@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <ng-container>
+      <div class="card text-start">
+        <img class="card-img-top" [src]="{{products.image}}" alt="Title" />
+        <div class="card-body">
+          <h4 class="card-title">name: {{products.name}}</h4>
+          <div class=" d-flex justify-content-between">
+            <h4>productCode: {{products.productCode}}</h4>
+            <h4>minimumQyantity: {{products.minimumQyantity}}</h4>
+        </div>
+        <div class=" d-flex justify-content-between">
+            <h4>price: {{products.price}}</h4>
+            <h4>discountRate: {{products.discountRate}}</h4>
+        </div>
+        </ng-container>
+      </div>
+
+    </div>
+  </div>
+</div>
+
