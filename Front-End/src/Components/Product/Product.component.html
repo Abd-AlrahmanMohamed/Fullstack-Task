@@ -1,4 +1,10 @@
 <div class="container">
+  <button 
+  type="button" 
+  class="btn btn-primary btn-lg" 
+  [routerLink]="['/add-product']">
+  Add Product
+</button>
   <div class="row">
     <div class="col-4">
       <ng-container *ngFor="let prod of products">
